@@ -1,0 +1,4 @@
+在程序中使用UIManager.setLookAndFeel()方法进行其设置。注意，L&F设置是应用程序main()方法要执行的第一个操作。
+跨平台的javaL&F设置语句：UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+当前运行平台的L&F设置语句：UIManager.setLookAndFeel(UIManager.getsystemLookAndFeelClassName())；
+windowsL&F设置语句：UIManager.setLookAndFeel（"com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
